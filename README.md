@@ -1,8 +1,30 @@
-# How to start the Express.js API in order for it to work correctly
+# About the project
 
-- Install Node.js
-- Run `npm install`
-- Go to the main directory and run `nodemon index.js`
+A simple movie website me and my colleague made for a university project.
+
+**Functionalities**
+- Sign up / Sign in
+- Changing your account details
+- Finding information about a movie
+- Commenting / rating a movie
+- Searching for movies
+
+**Technologies**
+*Front end:*
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Handlebars.js
+
+*Back end:* 
+- Express.js
+- PostgreSQL
+- JSON Web Token
+
+**What we would do different**
+- Dedicate more time to plan and structure our code better
+- ORM or Query Builder instead of raw SQL queries
 
 # Setting up the PostgreSQL database in your local environment
 
@@ -14,3 +36,9 @@
 - Then refresh the `Tables` section, right-click on the created table and import the _data/movie_data.csv_ file
 - You can create the `users` table using the query in _data/users_table_creation_sql.txt_ file
 - You can create the `comments` table using the query in _data/comment_table_creation_sql.txt_ file
+
+# How to start the Express.js API in order for it to work correctly
+
+- Install Node.js
+- Run `npm install`
+- Go to the main directory and run `nodemon index.js`
