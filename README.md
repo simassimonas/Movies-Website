@@ -10,6 +10,7 @@ A simple movie website me and my colleague made for a university project.
 - Searching for movies
 
 **Technologies**
+
 *Front end:*
 - HTML
 - CSS
@@ -37,8 +38,9 @@ A simple movie website me and my colleague made for a university project.
 - You can create the `users` table using the query in _data/users_table_creation_sql.txt_ file
 - You can create the `comments` table using the query in _data/comment_table_creation_sql.txt_ file
 
-# How to start the Express.js API in order for it to work correctly
+# How to run the project
 
 - Install Node.js
 - Run `npm install`
 - Go to the main directory and run `nodemon index.js`
+- Visit the website http://localhost:3000/
